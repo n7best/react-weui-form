@@ -2,7 +2,7 @@
 weui-react快速表单创建
 
 # [Demo](http://n7best.github.io/react-weui-form/)
-
+![手机预览](http://n7best.github.io/react-weui-form/qrcode.png)
 # 使用
 npm安装
 ```
