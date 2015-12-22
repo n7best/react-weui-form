@@ -1,8 +1,8 @@
 "use strict";
 
 import React from 'react';
-import Page from '../components/page';
-import WeForm from '../../lib';
+import Page from '../../components/page';
+import WeForm from '../../../lib';
 
 let schema = [
   {
@@ -125,10 +125,10 @@ let form = {
   ]
 };
 
-const Main = (props) => (
-  <Page className="home" title="weui-form" subTitle="快速方便表单创建">
+const All = (props) => (
+  <Page className="home" title="大杂烩">
     <WeForm schema={schema} form={form}/>
   </Page>
 )
 
-export default Main;
+export default All;
