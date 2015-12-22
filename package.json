@@ -1,8 +1,8 @@
 {
   "name": "react-weui-form",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "quick form for react-wui",
-  "main": "index.js",
+  "main": "./lib",
   "scripts": {
     "start": "webpack-dev-server --devtool eval --progress --hot --colors --content-base example",
     "clean": "rimraf ./lib ./coverage",
@@ -30,8 +30,6 @@
   "dependencies": {
     "classnames": "^2.2.0",
     "react": "^0.14.2",
-    "react-dnd": "^2.0.2",
-    "react-dnd-touch-backend": "^0.2.4",
     "react-weui": "^0.1.0"
   },
   "devDependencies": {
